@@ -26,7 +26,7 @@
 // for 50 hz, the pause should be to (20,000 - (RC_CHANNEL_OUT_COUNT * 2000))
 
 // Change to set the number of servos/ESCs
-#define RC_CHANNEL_OUT_COUNT 4
+#define RC_CHANNEL_OUT_COUNT 5
 
 #if defined (MORE_SERVOS_PLEASE)
 #define RCARDUINO_MAX_SERVOS (RC_CHANNEL_OUT_COUNT*2)
